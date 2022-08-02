@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+#loginsection { padding-top:206px }
+input[type="radio"] {
+    display:none;
+  }
+input[type="radio"] + label span.round{
+    display:inline-block;
+    width: 16px;height: 16px;
+    margin: -2px 9px 0 4px;
+    font-size: 0;
+    vertical-align: middle;
+    background: url('../images/spimg.png') no-repeat;cursor:pointer;
+  }
+input[type="radio"]:checked + label span.round {
+    width: 16px;height: 16px;
+    background: url('../images/spimg.png') no-repeat;
+  }
+h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#loginpage {
+    padding: 100px;
+    text-align: center;
+}
+#loginpage .loginmain  {
+    width: 50%;
+    margin: auto;
+}
+#loginpage .loginmain input {
+    width: 80%;
+    padding: 15px;
+}
+#loginpage .loginmain .submitbtn{
+    background: black;
+    color: white;
+}
+#loginpage .loginmain .submitbtn:hover {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    transition: 0.3s;
+}
+#loginpage .loginmain p {
+    margin: 15px 0;
+}
+
+#loginpage .loginmain button {
+    background: #4d4dbd;
+    color: #fff;
+    padding: 23px 55px;
+    margin-top:20px ;
+    border-radius: 15px;
+}
+#loginpage .loginmain .joinbutton {
+    border-radius: 40px;
+    width: 80%;
+    border: 1px solid black;
+    color: black;
+    background: white;
+    font-weight: bold;
+
+}
+h4 {
+    margin-top: 90px;
+}
+#loginpage .loginmain button .joinbutton{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    transition: 0.3s;
+}
+#loginpage .loginmain button:hover {
+    background-color: #282866;
+    color: #fff;
+    transition: 0.3s;
+}
+#joinsection .mailchk {
+    text-align: left;
+}
+#emailcom {
+    width: 50%;
+}
+
+
+#joinsection textarea {
+    width: 100%;
+    height: auto;
+    
+}

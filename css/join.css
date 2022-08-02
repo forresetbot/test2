@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+#joinsection { padding-top:106px }
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#joinpage {
+    padding: 100px;
+    text-align: center;
+}
+#joinpage .joinform p button {
+    margin-top: 15px;
+}
+#joinpage .joinform > p #email11 {
+    width: 46%;
+}
+#joinpage .joinform > #email12 {
+    height: 35px;
+}
+#joinpage .joinform {
+    width: 70%;
+    margin: auto;
+}
+#joinpage .joinform input {
+    width: 60%;
+    padding: 15px;
+    
+}
+#joinsection .mailchk {
+    float:left;
+    margin-left: 220px;
+}
+
+#joinpage .joinform p .userid {
+    width: 40%;
+}
+
+#joinpage .joinform p .idbutton {
+background: white;
+color: black;
+width: 20%;
+border: 1px solid black;
+
+}
+#joinpage .joinform p .idbutton:hover {
+    background-color: #282866;
+    color: #fff;
+    transition: 0.3s;
+}
+#joinpage .joinform p {
+    margin: 15px 0;
+}
+#joinpage .joinform button {
+    background: black;
+    color: #fff;
+    padding: 17px 55px;
+    border: 1px solid black;
+    width: 30%;
+    height: 10%;
+}
+#joinpage .joinform button:hover {
+    color: black;
+    background: #fff;
+    transition: 0.3s;
+}
+#email11 {
+    width: 50px;
+}
